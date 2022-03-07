@@ -1,0 +1,93 @@
+  h1{
+      text-align: center;
+  }
+  body{
+    background-color: #f5f5dc;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  header{
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background-color: white;
+      height: 100px;
+  }
+  .logo{
+      position: fixed;
+      top: 10px;
+      left: 10%;
+  }
+  .contact{
+      position: fixed;
+      right: 10%;
+      font-size: 15px;
+  }
+  .navmenu{
+      position: fixed;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  table,td,th {
+    margin: auto;
+	  border: 1px solid black;
+  }
+  ul{
+    list-style: none;
+  }
+  #menu li>a{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+  }
+  #menu li>a:hover{
+    color: #ffffff;
+    background-color: #8d8d8d;
+  }
+  #menu>li{
+    float: left;
+    text-align:center
+  }
+  #menu>li>ul{
+    display: none;
+  }
+  #menu>li:hover>ul {
+    display:block;
+  }
+  .separador{
+      height: 100px;
+  } 
+
+.centrado{
+    font-family: 'Brush Script MT','Harlow Solid Italic';
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.atencion{
+  text-align: center;
+}
+
+.derechos{
+  text-align: center;
+}
+
+footer{
+  color: white;
+  background-color: black;
+}
+
+.text{
+  text-align: center;
+}
+  
+  
+  
+  
+  
