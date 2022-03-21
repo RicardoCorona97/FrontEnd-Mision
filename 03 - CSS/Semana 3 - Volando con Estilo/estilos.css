@@ -1,0 +1,549 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 80px;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 48%, rgba(233,241,252,1) 55%);
+}
+
+footer{
+    position: absolute;
+    top: 3380px; left: 0; right: 0;
+    height: 250px;
+    background-color: #afb8f2;
+}
+
+.section1{
+    position: absolute;
+    top: 80px; left: 0; right: 0;
+    height: 700px;
+    background-color: white;
+}
+
+.section2{
+    position: absolute;
+    top: 780px; left: 0; right: 0;
+    height: 1600px;
+    background-color: white;
+}
+
+.section3{
+    position: absolute;
+    top: 2380px; left: 0; right: 0;
+    height: 1000px;
+    background-color: white;
+}
+
+.titulo1{
+    position: absolute;
+    top: 5%; left: 18%;
+    font-size: 60px;
+    color: #102086;
+    font-weight: bolder;
+}
+
+.containerLogo{
+    position: absolute;
+    top: 25px; left: 140px;
+}
+
+.logo{
+    color: #3858d6;
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.doc{
+    position: absolute;
+    left: 15.5%; bottom: 0;
+    height: 650px;
+}
+
+.agendarcita{
+    position: absolute;
+    top: 550px; left: 15%;
+    background-color: white;
+    border: none;
+    width: 800px;
+    height: 120px;
+    z-index: 3;
+    opacity: 0.95;
+    box-shadow: 5px 10px 30px #cbcbcb;
+}
+
+.guardarcita{
+    position: absolute;
+    top: 30%; right: 5%;
+    background-color: #3300ff;
+    border: none;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.botoncita{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-weight: bolder;
+}
+
+.icono{
+    position: absolute;
+    top: 48%; left: 16%;
+}
+
+.icono1{
+    position: absolute;
+    top: 49%; left: 45%;
+}
+
+.iconoTexto{
+    position: absolute;
+    top: 48%; left: 22%;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.iconoTexto1{
+    position: absolute;
+    top: 48%; left: 50%;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.textoagendar{
+    color: #acacac;
+    font-weight: bolder;
+}
+
+#location{
+    position: absolute;
+    top: 20%; left: 8%;
+}
+
+#date{
+    position: absolute;
+    top: 20%; left: 35%;
+}
+
+#type{
+    position: absolute;
+    top: 20%; left: 60%;
+}
+
+ul {
+    list-style: none;
+}
+
+.navmenu{
+    position: absolute;
+    top: 10px;
+    right: 5%;
+}
+
+#menu li>a{
+    font-size: 18px;
+    color: #acacac;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 120px;
+    font-weight: bolder;
+    border-radius: 6px;
+}
+
+#menu li>a:hover{
+    color: #ffffff;
+    background-color: #3300ff;
+    border-radius: 6px;
+}
+
+#menu>li{
+    float: left;
+    text-align:center
+}
+
+.main-button{
+    color: white !important;
+    background-color: #3300ff;
+}
+
+.triangulo1{
+    position: absolute;
+    top: 0; left: 10%;
+    width: 0;
+    height: 0;
+    border-top: 80px solid #f2f2f2;
+    border-right: 80px solid transparent;
+    border-left: 80px solid transparent;
+}
+
+.triangulo2{
+    position: absolute;
+    top: 40%; right: 0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #f2f2f2;
+    border-bottom: 100px solid transparent;
+}
+
+.triangulo3{
+    position: absolute;
+    top: 10%; right: 0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #f2f2f2;
+    border-bottom: 100px solid transparent;
+}
+
+.triangulo4{
+    position: absolute;
+    top: 47%; left: 0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid #f2f2f2;
+}
+
+.triangulo5{
+    position: absolute;
+    top: 5%; right: 0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid #f2f2f2;
+    border-bottom: 100px solid transparent;
+}
+
+
+.container1{
+    position: absolute;
+    top: 0; left: 0; 
+    width: 52%;
+    height: 700px;
+    background-color: white;
+    z-index: 1;
+}
+
+.separador2{
+    position: absolute;
+    top: 0; left: 52%; 
+    width: 48%;
+    height: 700px;
+    background-color: #2971de;
+    z-index: 2;
+}
+
+.texto{
+    position: absolute;
+    top: 33%; left: 18%;
+    font-size: 18px;
+    color: #acacac;
+}
+
+.texto1{
+    position: absolute;
+    top: 18%; left: 10%;
+    font-size: 18px;
+    color: #acacac;
+}
+
+.texto2{
+    position: absolute;
+    top: 57%; right: 13%;
+    font-size: 18px;
+    color: #acacac;
+}
+
+.texto3{
+    position: absolute;
+    top: 22%; left: 10%;
+    font-size: 18px;
+    color: #acacac;
+}
+
+.textoinfo{
+    position: absolute;
+    top: 68%; left: 24%;
+    font-size: 22px;
+    color: #102086;
+    font-weight: bolder;
+}
+
+.textocita{
+    color: #102086;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+#ubicacion{
+    position: absolute;
+    top: 40%; left: 10%;
+}
+
+#fecha{
+    position: absolute;
+    top: 40%; left: 35%;
+}
+
+#vacuna{
+    position: absolute;
+    top: 40%; left: 61%;
+}
+
+.iconocal{
+    position: absolute;
+    top: 70.8%; left: 19%;
+}
+
+.logoubicacion{
+    position: absolute;
+    top: 30%; left: 5%;
+}
+
+.logofecha{
+    position: absolute;
+    top: 32%; left: 31.5%;
+}
+
+.logovacuna{
+    position: absolute;
+    top: 30%; left: 56.5%;
+}
+
+.logos{
+    width: 200px;
+    height: 50px;
+    opacity: 0.15;
+}
+
+.logoastrazeneca{
+    position: absolute;
+    top: 3%; left: 10%;
+}
+
+.logosinovac{
+    position: absolute;
+    top: 3%;  left: 32%;
+}
+
+.logopfizer{
+    position: absolute;
+    top: 3%; right: 32%;
+}
+
+.logomoderna{
+    position: absolute;
+    top: 3%; right: 10%;
+}
+
+.linea{
+    position: absolute;
+    top: 16.2%; right: 0;
+    border: none;
+    background-color: #fafafa;
+    width: 600px;
+    height: 2px;
+}
+
+.linea1{
+    position: absolute;
+    top: 53.2%; left: 0;
+    border: none;
+    background-color: #fafafa;
+    width: 600px;
+    height: 2px;
+}
+
+.linea2{
+    position: absolute;
+    top: 15%; right: 0;
+    border: none;
+    background-color: #fafafa;
+    width: 600px;
+    height: 2px;
+}
+
+.subtitulo{
+    position: absolute;
+    top: 12%; left: 10%;
+    color: #102086;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.subtitulo1{
+    position: absolute;
+    top: 50%; right:  13%;
+    color: #102086;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.subtitulo2{
+    position: absolute;
+    top: 10%; left:  10%;
+    color: #102086;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.tarjeta1{
+    position: absolute;
+    top: 26%; left: 10%;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+.tarjeta2{
+    position: absolute;
+    top: 26%; left: 30.5%;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px #afb8f2;
+}
+
+.tarjeta3{
+    position: absolute;
+    top: 26%; right: 30.5%;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+.tarjeta4{
+    position: absolute;
+    top: 26%; right: 10%;
+    width: 250px;
+    height: 300px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+}
+
+.card-text {
+    padding: 0;
+    font-size: 1rem;
+}
+
+.container-info{
+    position: absolute;
+    top: 68%; right: 14%;
+    width: 450px;
+    height: 450px;
+}
+
+.info-card-title{
+    position: absolute;
+    top: 5%; left: 10%;
+    color: #102086;
+    font-size: medium;
+}
+
+.text-card-info{
+    position: absolute;
+    top: 35%; left: 10%;
+    font-size: small;
+    color: #acacac;
+}
+
+.info-card1{
+    position: absolute;
+    top: 0; left: 2%;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.info-card2{
+    position: absolute;
+    top: 17%; left: 2%;
+    width: 400px;
+    height: 130px;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.info-card3{
+    position: absolute;
+    top: 52%; left: 2%;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.info-card4{
+    position: absolute;
+    top: 69%; left: 2%;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.info-card5{
+    position: absolute;
+    top: 86%; left: 2%;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.cuadro1{
+    position: absolute;
+    top: 68%; left: 0;
+    background-color: #2477df;
+    width: 600px;
+    height: 450px;
+}
+
+.cuadro2{
+    position: absolute;
+    top: 40%; right: 0;
+    background-color: #2379df;
+    width: 600px;
+    height: 450px;
+}
+
+.woman{
+    position: absolute;
+    left: 15%; bottom: 0;
+    width: 450px;
+    height: 600px;
+}
+
+.doctor{
+    position: absolute;
+    left: 15%; bottom: 0;
+    width: 420px;
+    height: 600px;
+}
